@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/main_menu.unity
+    guid: d4a0ee48f01e83447b012db53f43c69f
+  - enabled: 1
+    path: Assets/Scenes/infinitymode.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/normal_mode.unity
+    guid: 50bd353d682b8cf4e8905f5b046e951f
+  - enabled: 1
+    path: Assets/Scenes/endgame_wawed.unity
+    guid: 09385407eea3aa34997788ac07aad120
+  - enabled: 1
+    path: Assets/Scenes/endgame_infinity.unity
+    guid: 67a2d95b3a3ef364e8fb55341ddbb4a6
+  - enabled: 1
+    path: Assets/Scenes/Youwin.unity
+    guid: 5ea3922136218a14d844b823ef18473f
+  m_configObjects: {}
