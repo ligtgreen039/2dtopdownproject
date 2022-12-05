@@ -1488,7 +1488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 306.40002, y: 27.850952}
+  m_AnchoredPosition: {x: 313.7, y: 27.849976}
   m_SizeDelta: {x: 193.8467, y: 55.701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267141627
@@ -9520,8 +9520,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 104.74, y: 27.849976}
-  m_SizeDelta: {x: 209.48, y: 55.7009}
+  m_AnchoredPosition: {x: 106.36157, y: 27.849976}
+  m_SizeDelta: {x: 212.7232, y: 55.7009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1862851270
 MonoBehaviour:
@@ -9556,7 +9556,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: 'MONEY:'
 --- !u!222 &1862851271
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9585,7 +9585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1864702203
 MonoBehaviour:
   m_ObjectHideFlags: 0

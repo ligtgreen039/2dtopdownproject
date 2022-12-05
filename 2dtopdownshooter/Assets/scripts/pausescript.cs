@@ -27,8 +27,7 @@ public class pausescript : MonoBehaviour
             charactercontroller.shaketimeremaining = 0f;
         }
         PlayerPrefs.SetFloat(volume_value_, volumebar.value);
-        sounds.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat(volume_value_) - 0.2f;
-        riflesounds.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat(volume_value_);
+        AudioListener.volume = PlayerPrefs.GetFloat(volume_value_);
 
     }
     public void exitfonc()
