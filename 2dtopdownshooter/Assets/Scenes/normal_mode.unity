@@ -5625,9 +5625,9 @@ MonoBehaviour:
     - {fileID: 9164385906321881722, guid: b6843ec572bf8d0418a8653b4e297ae3, type: 3}
     spawnInterval: 3.7
   - WaveName: Wave 5
-    numberofenemies: 64
-    numberofdemon: 48
-    numberofdragon: 16
+    numberofenemies: 48
+    numberofdemon: 36
+    numberofdragon: 12
     numberofzombie: 0
     typeofenemies:
     - {fileID: 5959533627148958325, guid: 8139f6b9251fa334eab4f547ed15e5dc, type: 3}
@@ -5635,25 +5635,25 @@ MonoBehaviour:
     - {fileID: 3615386583269774274, guid: d34031653e2595749b4a36d1a4522d85, type: 3}
     spawnInterval: 3.55
   - WaveName: Wave 6
-    numberofenemies: 64
-    numberofdemon: 44
+    numberofenemies: 56
+    numberofdemon: 36
     numberofdragon: 12
     numberofzombie: 8
     typeofenemies:
     - {fileID: 5959533627148958325, guid: 8139f6b9251fa334eab4f547ed15e5dc, type: 3}
     - {fileID: 9164385906321881722, guid: b6843ec572bf8d0418a8653b4e297ae3, type: 3}
     - {fileID: 3615386583269774274, guid: d34031653e2595749b4a36d1a4522d85, type: 3}
-    spawnInterval: 3.5
+    spawnInterval: 3.7
   - WaveName: Wave 7
-    numberofenemies: 80
-    numberofdemon: 52
+    numberofenemies: 76
+    numberofdemon: 48
     numberofdragon: 16
     numberofzombie: 12
     typeofenemies:
     - {fileID: 5959533627148958325, guid: 8139f6b9251fa334eab4f547ed15e5dc, type: 3}
     - {fileID: 9164385906321881722, guid: b6843ec572bf8d0418a8653b4e297ae3, type: 3}
     - {fileID: 3615386583269774274, guid: d34031653e2595749b4a36d1a4522d85, type: 3}
-    spawnInterval: 3.45
+    spawnInterval: 3.7
   - WaveName: Wave 8
     numberofenemies: 96
     numberofdemon: 60

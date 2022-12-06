@@ -169,5 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyanimator: {fileID: 9164385906321881702}
   health: 3
-  speed: 4
+  speed: 3.75
   amount: 10
+  shotgundamage: 1
