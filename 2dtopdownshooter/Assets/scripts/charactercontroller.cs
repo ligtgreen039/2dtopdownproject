@@ -52,6 +52,7 @@ public class charactercontroller : MonoBehaviour
     public GameObject shotgunbullet3;
     public GameObject shotgunbullet4;
     public GameObject shotgunbullet5;
+    bool candie = true;
     void Update()
     {
         movefonc();
@@ -60,6 +61,14 @@ public class charactercontroller : MonoBehaviour
         dash();
         throwgrenade();
         switchweapon();
+        if (Input.GetKeyDown(KeyCode.G) && candie == true)
+        {
+            candie = false;
+        }
+        else if(Input.GetKeyDown(KeyCode.G) && candie == false)
+        {
+            candie = true;
+        }
     }
     private void Start()
     {
@@ -152,7 +161,8 @@ public class charactercontroller : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("enemy"))
+
+        if (collision.gameObject.CompareTag("enemy") && candie == true)
         {
             if ((int)SceneManager.GetActiveScene().buildIndex == 2)
             {

@@ -292,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -375.46143, y: 26.126}
-  m_SizeDelta: {x: 194.8671, y: 52.2592}
+  m_AnchoredPosition: {x: -406.70624, y: 26.126}
+  m_SizeDelta: {x: 262.0125, y: 52.2592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35434077
 MonoBehaviour:
@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pistol
+  m_Text: Shotgun
 --- !u!222 &35434078
 CanvasRenderer:
   m_ObjectHideFlags: 0
